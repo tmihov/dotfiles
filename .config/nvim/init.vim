@@ -46,7 +46,7 @@ set mat=2
 set noerrorbells
 set novisualbell
 set t_vb=
-set tm=100
+set tm=200
 
 set expandtab
 set smarttab
@@ -84,7 +84,8 @@ set laststatus=2
 let NERDTreeIgnore = ['\.o$','\.map$','\.res$']
 
 " vim-script-autosave settings
-let g:auto_save_no_updatetime = 1
+let g:auto_save = 1
+"let g:auto_save_no_updatetime = 1
 let g:auto_save_in_inser_mode = 0
 
 " ctrlp settings
