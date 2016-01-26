@@ -11,6 +11,8 @@ call plug#begin('~/.config/nvim/plugged')
 Plug 'sjl/badwolf'
 Plug 'bling/vim-airline'
 Plug 'scrooloose/nerdtree'
+Plug 'vim-scripts/vim-auto-save'
+Plug 'ctrlpvim/ctrlp.vim'
 
 call plug#end()
 
@@ -66,6 +68,7 @@ set viminfo^=%
 
 "set clipboard+=unnamedplus
 
+" key bindings
 :inoremap jk <esc>
 
 " badwolf theme settings
@@ -79,3 +82,11 @@ set laststatus=2
 
 " NERDTree settings
 let NERDTreeIgnore = ['\.o$','\.map$','\.res$']
+
+" vim-script-autosave settings
+let g:auto_save_no_updatetime = 1
+let g:auto_save_in_inser_mode = 0
+
+" ctrlp settings
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_working_path_mode = 'a' " default = 'ra'
