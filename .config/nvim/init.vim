@@ -11,7 +11,7 @@ call plug#begin('~/.config/nvim/plugged')
 Plug 'sjl/badwolf'
 Plug 'bling/vim-airline'
 Plug 'scrooloose/nerdtree'
-Plug 'vim-scripts/vim-auto-save'
+"Plug 'vim-scripts/vim-auto-save'
 Plug 'ctrlpvim/ctrlp.vim'
 
 call plug#end()
