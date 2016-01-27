@@ -16,7 +16,7 @@ Plug 'ctrlpvim/ctrlp.vim'
 
 call plug#end()
 
-syntax on
+syntax enable
 set t_Co=256
 colorscheme badwolf
 
